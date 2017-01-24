@@ -1,7 +1,7 @@
 {
   "name": "ember-wu",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Include Wu in your Ember apps",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Devin Weaver (@sukima) <suki@tritarget.org>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -41,7 +41,11 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "wu",
+    "generators",
+    "functional",
+    "iterators"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
